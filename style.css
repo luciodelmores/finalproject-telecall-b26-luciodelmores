@@ -1,0 +1,155 @@
+body {
+  background-image: url('Images/Design-final/Background.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.brand-logo {
+  top: 6px;
+}
+
+/* Main Banner */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlay img {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 72%;
+    left: 20px; 
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+}
+
+.content img {
+    top: 1000px;
+    width: 800px;
+    height: auto;
+    margin: 0px;
+}
+
+.content a {
+    position: absolute;
+    top: 100%;
+    padding: 0px 20px;
+    font-size: 1em;
+}
+
+/* CORE VALUE */
+
+.core-values-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.core-values {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+}
+
+.core-value {
+    flex-basis: 25%;
+    text-align: center;
+    background-color: rgba(20, 18, 18, 0.882);
+    border: 2px solid rgb(246, 244, 244);
+    border-radius: 10px;
+    position: sticky;
+    top: 20px; 
+    height: 500px; 
+}
+
+.core-value img {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.core-value p {
+  text-align: center; 
+  margin: 0 5px; 
+}
+
+/* CEO Message */
+.ceo-container {
+  width: 1200px; 
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  padding: 20px;
+}
+
+
+img {
+  max-width: 100%; 
+}
+
+/* IMAGE BELT */
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 1s;
+}
+
+img {
+  width: 100%;
+  min-width: 100%;
+  height: 25%;
+}
+.image-belt {
+  text-align: center;
+}
+
+.image-belt img {
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.social-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
